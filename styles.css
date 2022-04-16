@@ -1,0 +1,93 @@
+*{
+    padding: 2px
+}
+
+
+#productos{
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+#total{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#guardar{
+    margin-top: 10px;
+}
+
+a{
+    margin-left: 3px;
+}
+
+#cuadro_ganado{
+    background-color: #6EC92D;
+    width: 20%;
+    height: 10%;
+    font-size: 30px;
+    position: absolute;
+    left: 60%;
+    color: white;
+    overflow-y: scroll;
+}
+
+#resultado_ganador{
+    font-size: 25px;
+  text-align: center;
+  top: 32%;
+    position: absolute;
+}
+
+#cuadro_ganado h1{
+    font-size: 55%;
+    text-align: center;
+}
+
+#cuadro_perdido{
+    background-color: #d64b4b;
+    width: 20%;
+    height: 10%;
+    font-size: 30px;
+    position: absolute;
+    left: 60%;
+    color: white;
+    top: 11%;
+    overflow-y: scroll;
+}
+
+#resultado_perdedor{
+    font-size: 18px;
+   top: 25px;
+   position: absolute;
+}
+
+#cuadro_perdido h1{
+    font-size: 55%;
+    text-align: center;
+}
+
+#cuadro_grafica{
+    background-color: #f1ef4f;
+    width: 20%;
+    height: 8cm;
+    font-size: 30px;
+    position: absolute;
+    left: 60%;
+    color: white;
+    top: 22%;
+}
+
+#cuadro_grafica h1{
+    font-size: 55%;
+    text-align: center;
+}
+
+#cuadro_parrafo{
+    width: 40%;
+    border: solid black 0.1cm;
+    font-size: 70%;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
